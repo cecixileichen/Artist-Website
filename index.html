@@ -36,10 +36,12 @@
     </div>
     
     <div class="artwork-info" id="artwork-info">
-      <h3 id="artwork-title"></h3>
-      <p id="artwork-medium"></p>
-      <p id="artwork-dimensions"></p>
-      <p id="artwork-year"></p>
+      <div id="artwork-details">
+        <h3 id="artwork-title"></h3>
+        <p id="artwork-medium"></p>
+        <p id="artwork-dimensions"></p>
+        <p id="artwork-year"></p>
+      </div>
       
       <div class="navigation">
         <a href="#" id="prev-button" onclick="navigateWork(-1); return false;">prev</a> / 
@@ -139,21 +141,24 @@
       currentWorkIndex = index;
       const artwork = currentCollection[index];
       
-      // Update the artwork info in sidebar
+      // Always show the artwork-info container for navigation
+      document.getElementById('artwork-info').style.display = 'block';
+      
+      // Update the artwork image
       document.getElementById('current-artwork').src = artwork.image;
       
-      // For commercial work categories, hide the info panel
-      const artworkInfo = document.getElementById('artwork-info');
+      // For commercial work categories, hide just the artwork details
+      const artworkDetails = document.getElementById('artwork-details');
       
       if (currentCategory === 'graduation-photo' || currentCategory === 'event-photo') {
-        artworkInfo.style.display = 'none';
+        artworkDetails.style.display = 'none';
       } else {
-        // Only show artwork info for artist work
+        // Show artwork details for artist work
         document.getElementById('artwork-title').textContent = artwork.title;
         document.getElementById('artwork-medium').textContent = artwork.medium;
         document.getElementById('artwork-dimensions').textContent = artwork.dimensions;
         document.getElementById('artwork-year').textContent = artwork.year;
-        artworkInfo.style.display = 'block';
+        artworkDetails.style.display = 'block';
       }
       
       // Switch to single view

@@ -1,0 +1,70 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about - xilei ceci chen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="sidebar-main">
+      <h1><a href="index.html">XILEI <br> CECI <br> CHEN</a></h1>
+      <ul>
+        <li class="menu-item">
+          <a href="index.html" class="main-link">Artist Work</a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="main-link" onclick="toggleSubmenu('commercial-work'); return false;">Commercial Work</a>
+          <ul class="submenu" id="commercial-work-submenu">
+            <li><a href="index.html" onclick="localStorage.setItem('category', 'graduation-photo');">Graduation Photos</a></li>
+            <li><a href="index.html" onclick="localStorage.setItem('category', 'event-photo');">Event Photos</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html" class="main-link">About</a></li>
+        <li><a href="contact.html" class="main-link">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ceciii_xileichen/" target="_blank" class="instagram-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content">
+    <h2>About</h2>
+    <div class="about-content">
+      <p>
+        Xilei Ceci Chen is a multimedia emerging artist whose practice explores feminism and family relationships within the context of contemporary Chinese society. 
+        Working primarily with ceramics, digital photography, and analog processes, her work examines questions of identity, displacement, and personal narrative. 
+        Drawing from her lived experience between two cultures, she reflects on what it means to navigate family dynamics, societal roles, and womanhood. 
+        Born and raised in Guangzhou, China, Chen moved to the United States to pursue her undergraduate studies at Brandeis University, where she is currently completing a BA in Studio Art and a BS in Computer Science. 
+        Her transition from a traditional Chinese educational system to an American liberal arts environment deeply informs her artistic inquiry. As a student journalist and photographer for various campus organizations,
+        she remains actively engaged with student life and uses this lens to enrich her creative research. Her work has been exhibited at the Dreitzer Gallery in Massachusetts and the Siena Art Institute in Italy. 
+        She is currently based in the Greater Boston Area.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function toggleSubmenu(id) {
+      const submenuId = id + '-submenu';
+      const submenu = document.getElementById(submenuId);
+      
+      if (submenu) {
+        if (submenu.style.display === 'block') {
+          submenu.style.display = 'none';
+        } else {
+          submenu.style.display = 'block';
+        }
+      }
+    }
+  </script>
+</body>
+</html>

@@ -10,7 +10,7 @@ const artworks = [
     },
     {
 		title: "Nowhere to Hide, 6",
-		image: "img/artworks/6.jpg",
+		image: "img/artworks/6.JPG",
 		medium: "photography",
 		dimensions: "24 by 18 inches",
 		year: "2023",
@@ -18,7 +18,7 @@ const artworks = [
     },
     {
 		title: "Nowhere to Hide, 9",
-		image: "img/artworks/9.jpg",
+		image: "img/artworks/9.JPG",
 		medium: "photography",
 		dimensions: "20 by 16 inches",
 		year: "2023",
@@ -26,7 +26,7 @@ const artworks = [
     },
     {
 		title: "Nowhere to Hide, 10",
-		image: "img/artworks/10.jpg",
+		image: "img/artworks/10.JPG",
 		medium: "photography",
 		dimensions: "14 by 11 inches",
 		year: "2023",
@@ -34,7 +34,7 @@ const artworks = [
     },
     {
 		title: "Nowhere to Hide, 11",
-		image: "img/artworks/11.jpg",
+		image: "img/artworks/11.JPG",
 		medium: "photography",
 		dimensions: "14 by 11 inches",
 		year: "2023",
@@ -42,7 +42,7 @@ const artworks = [
     },
     {
 		title: "Nowhere to Hide, 12",
-		image: "img/artworks/12.jpg",
+		image: "img/artworks/12.JPG",
 		medium: "photography",
 		dimensions: "18 by 24 inches",
 		year: "2023",
@@ -50,7 +50,7 @@ const artworks = [
     },
 	{
 		title: "We tried to hold it together",
-		image: "img/artworks/staple.jpg",
+		image: "img/artworks/staple.JPG",
 		medium: "ceramics and staples",
 		dimensions: "18 by 24 inches",
 		year: "2024",

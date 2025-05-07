@@ -104,5 +104,117 @@ const artworks = [
 		year: "2024",
 		category: "artist-work"
     },
+	{
+		title: "Marry The Planet, Canton, 4",
+		image: "img/artworks/mtp1-4.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2022",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Canton, 11",
+		image: "img/artworks/mtp1-11.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2022",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Canton, 37",
+		image: "img/artworks/mtp1-37.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2022",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Tibet, 1",
+		image: "img/artworks/mtp2-1.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Tibet, 2",
+		image: "img/artworks/mtp2-2.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Tibet, 3",
+		image: "img/artworks/mtp2-3.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Tibet, 4",
+		image: "img/artworks/mtp2-4.HEIC",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Tibet, 5",
+		image: "img/artworks/mtp2-5.HEIC",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Tibet, 6",
+		image: "img/artworks/mtp2-6.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Tibet, 7",
+		image: "img/artworks/mtp2-7.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Dongshan Island, 1",
+		image: "img/artworks/mtp3-1.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Dongshan Island, 2",
+		image: "img/artworks/mtp3-2.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Dongshan Island, 3",
+		image: "img/artworks/mtp3-3.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
+	{
+		title: "Marry The Planet, Dongshan Island, 4",
+		image: "img/artworks/mtp3-4.JPG",
+		medium: "photography",
+		dimensions: "18 by 24 inches",
+		year: "2023",
+		category: "artist-work"
+    },
     // Add more artworks here
   ];
